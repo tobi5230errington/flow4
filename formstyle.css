@@ -10,3 +10,8 @@
 .container form {
   padding: 0 25%;
 }
+
+#errormessage_name,#errormessage_email,#errormessage_checkbox{
+  color:red;
+  font-size: 12px;
+}
