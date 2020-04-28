@@ -1,10 +1,18 @@
 .btn-primary {
   margin-top: 20px;
 }
+.header_container h3{
+  color: white;
+}
 
 
-.header_container{
-  text-align: center;
+.container_size {
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: #33E0A1;
+  padding: 15px 15px;
+  border-radius: 30px;
+  color: white;
 }
 
 .container form {

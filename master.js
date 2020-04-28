@@ -4,7 +4,7 @@ document.getElementById('signUp').addEventListener("click", validate);
 function validate() {
 
 var name = document.getElementById('nameid').value;
-var nametest = /^[A-Za-z]{2,100}$/;
+var nametest = /^[A-Za-z .'-]{2,100}$/;
 var nameResult = nametest.test(name);
 if (!nameResult) {
     var msg = document.getElementById('errormessage_name')
@@ -25,6 +25,7 @@ if (!emailResult) {
   var msg = document.getElementById('errormessage_email')
   msg.innerHTML ="";
 }
+
 var checkid = document.getElementById('checkid').checked;
 if (!checkid) {
   var msg = document.getElementById('errormessage_checkbox')
@@ -32,6 +33,11 @@ if (!checkid) {
 }else{
   var msg = document.getElementById('errormessage_checkbox')
   msg.innerHTML ="";
+}
+
+if (nameResult && emailResult && checkid) {
+  var formV = document.getElementById('validation_form');
+  formV.innerHTML= "<p>tak skal du have du hører fra os </p>";
 }
 
 
