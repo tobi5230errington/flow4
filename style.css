@@ -56,6 +56,27 @@
   margin: 20px 0;
 }
 
+.quiz{
+    color: white;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 25px;
+    text-shadow: 2px 1px black;
+
+    background-image: url(palme.jpeg);
+    background-size: cover;
+
+    min-height: 350px;
+}
+
+.quiz h2 {
+    font-size: 15px;
+}
+
+.quiz h1 {
+    padding-top: 100px;
+}
+
   .container_size {
     max-width: 450px;
     min-height: 350px;
@@ -77,6 +98,7 @@
     color:red;
     font-size: 12px;
   }
+
 
   .video_container iframe {
     border-radius: 25px;
