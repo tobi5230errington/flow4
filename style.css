@@ -1,5 +1,8 @@
 * ::-webkit-scrollbar {
-    display: none; }
+  margin: 0;
+  padding: 0;
+    display: none;
+  }
 
 .btn-outline-success {
     color: #34e0a1;
@@ -17,31 +20,59 @@
     background-color: #34e0a1;
     border-color: #34e0a1;
   }
+  .btn-primary {
+    margin-top: 20px;
+  }
 
-.container-fluid {
-  text-align: center;
-  height: 500px;
-  background: url("images/ferie1.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-}
-.container-fluid h1 {
-  color: white;
-  text-shadow: 2px 2px 5px #000000;
-  font-size: 58px;
-  position: relative;
-  top: 150px;
-}
-.container-fluid p {
-  position: relative;
-  top: 160px;
-  color: white;
-  text-shadow: 2px 2px 5px #000000;
-}
-.container-fluid button {
-  position: relative;
-  top: 180px;
-}
-.btn-success{
+  .container-fluid {
+    text-align: center;
+    height: 500px;
+    background: url("images/ferie1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+  }
 
+  .container-fluid h1 {
+    color: white;
+    text-shadow: 2px 2px 5px #000000;
+    font-size: 58px;
+    position: relative;
+    top: 150px;
+  }
+
+  .container-fluid p {
+    position: relative;
+    top: 160px;
+    color: white;
+    text-shadow: 2px 2px 5px #000000;
+  }
+  .container-fluid button {
+    position: relative;
+    top: 180px;
+  }
+
+
+.row {
+  margin: 20px 0;
 }
+
+  .container_size {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: #33E0A1;
+    padding: 15px 15px;
+    border-radius: 30px;
+    color: white;
+  }
+  .header_container h3{
+    color: white;
+  }
+
+  .container form {
+    padding: 0 25%;
+  }
+
+  #errormessage_name,#errormessage_email,#errormessage_checkbox{
+    color:red;
+    font-size: 12px;
+  }
