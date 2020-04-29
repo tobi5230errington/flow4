@@ -58,6 +58,7 @@
 
   .container_size {
     max-width: 450px;
+    min-height: 350px;
     margin: 0 auto;
     background-color: #33E0A1;
     padding: 15px 15px;
@@ -75,4 +76,17 @@
   #errormessage_name,#errormessage_email,#errormessage_checkbox{
     color:red;
     font-size: 12px;
+  }
+
+  .video_container iframe {
+    border-radius: 25px;
+    min-height: 350px;
+    margin: 0 auto;
+  }
+  .banner_container{
+    margin: 0 auto;
+  }
+  .banner_container iframe {
+    border-radius: 25px;
+
   }
